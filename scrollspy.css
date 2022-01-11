@@ -53,13 +53,16 @@ main {
   padding-bottom: 100px;
   background-color: #7d1935;
 }
+
+#why-sweet i {
+  color: white;
+}
 .card-body {
   background-color: #7d1935;
 }
 
 /*section categories*/
 #categories {
-  margin-bottom: 0;
   padding-top: 50px;
 }
 .card-img-top:hover {
