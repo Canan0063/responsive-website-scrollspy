@@ -48,6 +48,15 @@ main {
   transform: translate(-50%, -50%);
 }
 
+#why-sweet {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #7d1935;
+}
+.card-body {
+  background-color: #7d1935;
+}
+
 /*section categories*/
 #categories {
   margin-bottom: 0;
@@ -70,11 +79,6 @@ main {
   color: #fbc634 !important;
 }
 
-#locations {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: green;
-}
 #contact {
   padding-top: 100px;
   padding-bottom: 100px;
