@@ -59,10 +59,17 @@ main {
 }
 /*reviews*/
 #reviews {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
-  background-color: tomato;
+  background-color: #7d1935;
 }
+.ratings i {
+  color: #cecece;
+}
+.rating-star {
+  color: #fbc634 !important;
+}
+
 #locations {
   padding-top: 100px;
   padding-bottom: 100px;
