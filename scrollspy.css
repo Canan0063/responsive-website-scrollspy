@@ -1,62 +1,50 @@
 * {
-  margin: 0;
-  padding: 0;
-  color: black;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  /*navbar*/
+  .navbar {
+    background-color: lightgrey;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbar-brand {
+    font-family: "Lora";
+    color: #7d1935;
+    margin-left: 30px;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .navbar-brand:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+  .nav-link {
+    color: #7d1935;
+  }
+  .dropdown-item {
+    color: #7d1935;
+  }
+  
+  /*Main*/
+  main{
+    background-image: url("https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/6624-Toffee-apple-pie.jpg?v=1-0");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
 }
+  /*section*/
+  section {
+    height: 80vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-/*navbar*/
-.navbar {
-  background-color: lightgrey;
-}
-a {
-  text-decoration: none;
-}
-.navbar-brand {
-  font-family: "Lora";
-  color: #7d1935;
-  margin-left: 30px;
-}
-.icon {
-  font-size: 25px;
-}
-.navbar-brand:hover {
-  opacity: 0.8;
-  transition: 0.2s;
-}
-.nav-link {
-  color: #7d1935;
-}
-.dropdown-item {
-  color: #7d1935;
-}
-
-/*Main*/
-main {
-  background-image: linear-gradient(
-      200deg,
-      rgba(255, 0, 0, 0.4),
-      rgb(94, 28, 28, 0.8)
-    ),
-    url("https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/6624-Toffee-apple-pie.jpg?v=1-0");
-  height: 100vh;
-  background-size: unset;
-  width: 100%;
-  background-attachment: fixed;
-  background-position-x: center;
-}
-.home-text {
-  text-align: center;
-  padding-top: 20%;
-  position: absolute;
-  padding-right: 10%;
-  padding-left: 5%;
-}
-section {
-  height: 80vh;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #7d1935;
-}
-.card-img-top:hover {
-  opacity: 0.7;
-}
+  .card-img-top:hover {
+    opacity: 0.7;
+  }
+  
