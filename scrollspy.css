@@ -35,15 +35,28 @@
     background-image: url("https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/6624-Toffee-apple-pie.jpg?v=1-0");
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
 }
-  /*section categories*/
+
+.main-text{
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    opacity: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*section categories*/
   #categories{
     margin-bottom: 0;
   }
-  .card-img-top:hover {
+  .card-img-top:hover{
     opacity: 0.3;
+    visibility: visible;
   }
   /*reviews*/
   #reviews{
@@ -61,4 +74,9 @@
     padding-bottom: 100px;
     background-color:black ;
     color: white;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
 }
