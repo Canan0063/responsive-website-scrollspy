@@ -36,15 +36,29 @@
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 100px;
 }
-  /*section*/
-  section {
-    height: 80vh;
+  /*section categories*/
+  #categories{
+    margin-bottom: 0;
+  }
+  .card-img-top:hover {
+    opacity: 0.3;
+  }
+  /*reviews*/
+  #reviews{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-color:tomato ;
+  }
+  #locations{
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .card-img-top:hover {
-    opacity: 0.7;
-  }
-  
+    background-color:green ;
+}
+#contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:black ;
+    color: white;
+}
