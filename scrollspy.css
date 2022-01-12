@@ -3,27 +3,39 @@
   padding: 0;
   color: black;
 }
-
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
 /*navbar*/
 .navbar {
-  background-color: lightgrey;
+  background-color: white;
 }
-a {
-  text-decoration: none;
-}
+
 .navbar-brand {
   font-family: "Lora";
   color: #7d1935;
   margin-left: 30px;
 }
+.nav-item a {
+  text-decoration: none;
+  color: #7d1935;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: black;
+}
 
 .navbar-brand:hover {
   opacity: 0.8;
   transition: 0.2s;
+  color: black;
 }
-.nav-link {
-  color: #7d1935;
-}
+
 .dropdown-item {
   color: #7d1935;
 }
@@ -92,7 +104,6 @@ main {
 
 #contact {
   padding-top: 50px;
-  padding-bottom: 100px;
   background-color: black;
 }
 
