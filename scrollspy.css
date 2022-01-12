@@ -49,18 +49,22 @@ main {
 }
 
 #why-sweet {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: #7d1935;
 }
 
 #why-sweet i {
   color: white;
 }
+.card,
 .card-body {
   background-color: #7d1935;
 }
 
+.why-list {
+  flex-wrap: wrap;
+}
 /*section categories*/
 #categories {
   padding-top: 50px;
@@ -71,8 +75,8 @@ main {
 }
 /*reviews*/
 #reviews {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: #7d1935;
 }
 .ratings i {
@@ -83,8 +87,8 @@ main {
 }
 
 #contact {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: black;
   color: white;
 }
