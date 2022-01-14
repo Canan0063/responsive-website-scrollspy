@@ -1,142 +1,157 @@
 * {
-  margin: 0;
-  padding: 0;
-  color: black;
-}
-a,
-a:hover,
-a:active,
-a:focus {
-  text-decoration: none;
-  color: inherit;
-}
-/*navbar*/
-.navbar {
-  background-color: white;
-}
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+  /*navbar*/
+  .navbar {
+    background-color: white;
+  }
+  
+  .navbar-brand {
+    font-family: "Lora";
+    color: #7d1935;
+    margin-left: 30px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #7d1935;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar-brand:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    color: black;
+  }
+  
+  .dropdown-item {
+    color: #7d1935;
+  }
+  
+  /*Main*/
+  main {
+    background-image: url("https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/6624-Toffee-apple-pie.jpg?v=1-0");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .main-text {
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    opacity: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .why-reasons{
+      background-color: #7d1935;
+  }
+  #why-sweet {
+    padding-top: 55px;
+    padding-bottom: 250px;
+    background-color: #7d1935;
+  }
+  .why-sweet-text{
+    padding-top: 50px;
+  }
+  .final{
+    padding-top: 30px;
+  }
+  
+  #why-sweet i {
+    color: white;
+  }
+  
+  #why-sweet hr {
+    color: white;
+  }
+  
+  .why-list {
+    flex-wrap: wrap;
+  }
+  /*section categories*/
+  #categories {
+    padding-top: 50px;
+  }
+  .slider-img{
+  padding-bottom: 60px;
+  }
+  
+  .category:hover {
+    visibility: visible;
+    transform: translateY(20px);
+    transition: 0.8s ease-in-out;
+  }
 
-.navbar-brand {
-  font-family: "Lora";
-  color: #7d1935;
-  margin-left: 30px;
-}
-.nav-item a {
-  text-decoration: none;
-  color: #7d1935;
-}
+  .card-img-overlay{    
+      text-align:center;
+      margin-top: 50%;
+  }
+  .card-img-overlay .cnames{
+      display: none;
+  }
 
-.nav-item a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.navbar-brand:hover {
-  opacity: 0.8;
-  transition: 0.2s;
-  color: black;
-}
-
-.dropdown-item {
-  color: #7d1935;
-}
-
-/*Main*/
-main {
-  background-image: url("https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/6624-Toffee-apple-pie.jpg?v=1-0");
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.main-text {
-  border: 1px solid white;
-  background-color: white;
-  position: absolute;
-  opacity: 0.8;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#why-sweet {
-  padding-top: 55px;
-  padding-bottom: 250px;
-  background-color: #7d1935;
-}
-.why-sweet-text{
-  padding-top: 50px;
-}
-.final{
-  padding-top: 30px;
-}
-
-#why-sweet i {
-  color: white;
-}
-
-#why-sweet hr {
-  color: white;
-}
-.card,
-.card-body {
-  background-color: #7d1935;
-}
-
-.why-list {
-  flex-wrap: wrap;
-}
-/*section categories*/
-#categories {
-  padding-top: 50px;
-}
-.slider-img{
-padding-bottom: 60px;
-}
-
-.card-img-top:hover {
-  opacity: 0.6;
-  visibility: visible;
-}
-/*reviews*/
-#reviews {
-  padding-top: 55px;
-  padding-bottom: 250px;
-  background-color: #7d1935;
-}
-#reviews .container-fluid{
-  padding-top: 150px;
-}
-
-.ratings i {
-  color: #cecece;
-}
-.rating-star {
-  color: #fbc634 !important;
-}
-
-#contact {
-  padding-top: 50px;
-  padding-bottom: 150px;
-  background-color: black;
-}
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  position: absolute;
-}
-
-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: gray;
-}
+  .card-img-overlay:hover .cnames{
+      transition: 0.5s;
+      display:inline;
+      border: 2px solid white;
+      color: white;
+      font-size: 2rem;
+  }
+  /*reviews*/
+  #reviews {
+    padding-top: 55px;
+    padding-bottom: 250px;
+    background-color: #7d1935;
+  }
+  #reviews .container-fluid{
+    padding-top: 150px;
+  }
+  
+  .ratings i {
+    color: #cecece;
+  }
+  .rating-star {
+    color: #fbc634 !important;
+  }
+  
+  #contact {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-color: black;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+  }
